@@ -32,7 +32,7 @@ return inputValue
 
 
   function submitBreed() {
-    $('#submit').click( event => {
+    $('.dogSelector').submit( event => {
         console.log('submiting');
       event.preventDefault();
       getInputValue();
